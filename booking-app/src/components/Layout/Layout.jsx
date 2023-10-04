@@ -5,13 +5,13 @@ import Routers from '../../router/routers'
 import Footer from '../footer/footer'
 
 const layout = () => {
-  return <>
-  <Header/>
-  <Routers/>
-  <Footer/>
-  </>
-   
-  )
-}
+  return (
+    <>
+      <Header />
+      <Routers />
+      <Footer />
+    </>
+  );
+};
 
-export default layout
+export default layout;
